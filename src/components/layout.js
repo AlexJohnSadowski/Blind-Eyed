@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   background: ${props => props.theme.background};
   overscroll-behavior:none;
   overflow-x:hidden;
