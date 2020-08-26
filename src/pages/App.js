@@ -1,12 +1,13 @@
-import React from "react"
+import React, { lazy } from "react"
 import Layout from "../components/layout"
-
-import HomeBanner from "../components/homePage/homeBanner"
 
 import {
   useGlobalStateContext,
   useGlobalDispatchContext,
 } from "../context/globalContext"
+
+import HomeBanner from '../components/homePage/homeBanner'
+
 
 const App = props => {
   const { cursorStyles } = useGlobalStateContext()
