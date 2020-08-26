@@ -63,7 +63,6 @@ const Layout = ({ children }) => {
     <Header onCursor={onCursor} toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
     <Navigation onCursor={onCursor} toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
     <main>{children}</main>
-    {console.log(currentTheme)}
     </ThemeProvider>
   ) 
   
