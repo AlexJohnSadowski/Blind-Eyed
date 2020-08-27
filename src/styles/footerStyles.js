@@ -10,14 +10,17 @@ export const FooterContent = styled.div`
   color: #2323FA;
   font-size: 3vh;
   font-weight: 600;
-  line-height: 4vh;
-  padding:2%;
+  line-height: 8px;
   flex: 1;
   ${props =>
     props.wider &&
     css`
       flex: 2;
     `}
+    @media(max-width:850px){
+      padding:2%;
+      line-height:4vh;
+    }
 `
 
 export const FooterSocial = styled.div`
