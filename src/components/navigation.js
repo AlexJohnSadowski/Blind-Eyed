@@ -137,7 +137,7 @@ const Navigation = ({ onCursor, toggleMenu, setToggleMenu }) => {
               <NavFooter>
                 <Flex spaceBetween>
                   <FooterContent>
-                    <p>alexsadowski.dev@gmail.com</p>
+                    <p>Alex Sadowski</p>
                   </FooterContent>
                   <FooterContent wider>
                     <p>React Developer</p>

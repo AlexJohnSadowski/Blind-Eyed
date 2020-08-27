@@ -42,6 +42,7 @@ const HomeFeatured = () => {
             <video
               loop
               autoPlay
+              muted
               src={require("../../assets/video/featured-video.mp4")}
             ></video>
           </FeaturedVideo>

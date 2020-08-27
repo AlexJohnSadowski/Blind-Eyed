@@ -22,13 +22,14 @@ html {
   font-size:16px;
   -webkit-font-smoothing: antialiased;
   height:100%;
+  overflow-x:hidden;
 }
 
 body {
   font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   background: ${props => props.theme.background};
   overscroll-behavior:none;
-  overflow-x:hidden;
+  
 }
 `
 

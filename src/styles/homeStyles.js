@@ -23,6 +23,9 @@ export const Canvas = styled.canvas`
   left: 0;
   height: 100%;
   display: block;
+  @media(max-width:850px){
+    display:none;
+  }
 `;
 
 export const BannerTitle = styled.h1`
@@ -35,9 +38,13 @@ export const BannerTitle = styled.h1`
 
 export const Headline = styled.span`
   display: block;
-  font-size: 20rem;
+  font-size: 35vh;
   font-weight: 900;
   line-height: 0.76;
+  @media (max-width: 840px) {
+    font-size:10vh;
+    margin:5%;
+  }
 `;
 
 //Content Section
@@ -51,6 +58,10 @@ export const Content = styled.h2`
   font-weight: 400;
   margin-left: 124px;
   color: ${(props) => props.theme.text};
+  @media(max-width:840px){
+  width:80%;
+  margin:2%;
+}
 `;
 
 //Featured Section
@@ -105,6 +116,13 @@ export const FeaturedContent = styled.div`
       }
     }
   }
+  @media (max-width: 1200px) {
+    padding:0;
+
+    .featured-title {
+      font-size:4rem;
+    }
+  }
 `;
 
 export const FeaturedVideo = styled.div`
@@ -120,18 +138,29 @@ export const FeaturedVideo = styled.div`
 export const FooterContent = styled.div`
   color: ${(props) => props.theme.text};
 
-  .footer-title{
-    font-size:10vh;
-    text-align:right;
-    font-weight:900;
+  .footer-title {
+    font-size: 10vh;
+    text-align: right;
+    font-weight: 900;
   }
 
   .footer-email {
-    margin-top:10%;
-    font-size:10vh;
-    text-align:center;
-    font-weight:900;
-    text-transform:uppercase;
-    text-decoration: underline #2323FA;
+    margin-top: 10%;
+    font-size: 8vh;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline #2323fa;
+  }
+
+  @media (max-width: 1200px) {
+    .footer-email {
+      margin-top: 20%;
+      font-size: 5vw;
+    }
+
+    .footer-title {
+      font-size:8vh;
+    }
   }
 `;

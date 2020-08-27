@@ -8,9 +8,10 @@ export const FooterNav = styled(motion.div)`
 
 export const FooterContent = styled.div`
   color: #2323FA;
-  font-size: 22px;
+  font-size: 3vh;
   font-weight: 600;
-  line-height: 8px;
+  line-height: 4vh;
+  padding:2%;
   flex: 1;
   ${props =>
     props.wider &&
