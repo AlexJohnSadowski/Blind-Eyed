@@ -93,6 +93,10 @@ export const Cursor = styled.div`
   &.locked {
     border: 4px solid ${props => props.theme.text} !important;
   }
+
+  @media(max-width:1000px){
+    display:none;
+  }
 `
 
 const rotate360 = keyframes`

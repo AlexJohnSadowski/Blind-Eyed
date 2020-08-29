@@ -19,7 +19,7 @@ import { motion, AnimatePresence } from "framer-motion"
 const navRoutes = [
   {
     id: 0,
-    title: "driven to make a difference",
+    title: "make a difference",
     path: "/make-a-difference",
     video: "featured-video.mp4",
   },

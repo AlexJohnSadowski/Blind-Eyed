@@ -71,6 +71,12 @@ export const NavList = styled.div`
       }
     }
   }
+  @media (max-width:700px){
+     ul li {
+      font-size:1rem;
+    }
+    
+  }
 `
 export const NavFooter = styled.div`
   position: absolute;
