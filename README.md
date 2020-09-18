@@ -2,7 +2,7 @@
 ### https://blindeyed.netlify.app/
 
 #### Coming soon:
-#### * RWD - the website is still not mobile responsive, but it will be shortly!
+#### * better RWD
 #### * adding more pages
 #### * Adding GSAP (or I might stick to framer motion, but I rlly don't like using the observer, so probably will go with gsap 3)
 
